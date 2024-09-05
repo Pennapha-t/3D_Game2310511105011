@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 0;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI WinText;
+    public TextMeshProUGUI GameOverText;
     private Rigidbody rb;
     private int score;
     private float movementX;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
         SetScoreTest();
         WinText.gameObject.SetActive(false);
+        GameOverText.gameObject.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
@@ -35,11 +37,16 @@ public class PlayerController : MonoBehaviour
     void SetScoreTest()
     {
         scoreText.text = "Score :" + score.ToString();
-        if (score >= 5)
+        if (score >= 6)
         {
             WinText.gameObject.SetActive(true);
         }
-    }
+        if (score <= -1)
+        {
+            GameOverText.gameObject.SetActive(true);
+        }
+}
+
 
     private void FixedUpdate()
     {
@@ -54,7 +61,12 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             score++;
-            //score = score + 1;
+            SetScoreTest();
+        }
+        else if (other.gameObject.CompareTag("PickupNegative"))
+        {
+            other.gameObject.SetActive(false);
+            score--;
             SetScoreTest();
         }
        

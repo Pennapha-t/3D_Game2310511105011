@@ -359,6 +359,7 @@
 "Assets/Bublisher/3D Stylized Animated Dogs Kit/Scripts/DemoController.cs"
 "Assets/Script/CameraController.cs"
 "Assets/Script/Pickup.cs"
+"Assets/Script/PickupNegative.cs"
 "Assets/Script/PlayerController.cs"
 -langversion:9.0
 /deterministic

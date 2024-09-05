@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\",
+  "WorkspaceRootPath": "D:\\3D_Ball\\2310511105011\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\pastel\\2310511105011\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|d:\\3d_ball\\2310511105011\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\Pastel\\2310511105011\\assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|d:\\3d_ball\\2310511105011\\assets\\script\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\Pastel\\2310511105011\\assets\\script\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|d:\\3d_ball\\2310511105011\\assets\\script\\pickupnegative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pickupnegative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|d:\\3d_ball\\2310511105011\\assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72385EF9-F1F6-3303-8A19-F83C75540385}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pickup.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\Assets\\Script\\Pickup.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Pickup.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\Assets\\Script\\Pickup.cs",
-              "RelativeToolTip": "Assets\\Script\\Pickup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
+              "ToolTip": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:41:38.91Z",
+              "WhenOpened": "2024-09-03T09:56:12.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PickupNegative.cs",
+              "DocumentMoniker": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\PickupNegative.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PickupNegative.cs",
+              "ToolTip": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\PickupNegative.cs",
+              "RelativeToolTip": "Assets\\Script\\PickupNegative.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:56:08.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\Assets\\Script\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\Assets\\Script\\CameraController.cs",
-              "RelativeToolTip": "Assets\\Script\\CameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Title": "Pickup.cs",
+              "DocumentMoniker": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\Pickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Pickup.cs",
+              "ToolTip": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\Pickup.cs",
+              "RelativeToolTip": "Assets\\Script\\Pickup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:18:03.365Z",
+              "WhenOpened": "2024-09-03T09:56:05.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\Assets\\Script\\PlayerController.cs",
+              "DocumentMoniker": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Pastel\\2310511105011\\Assets\\Script\\PlayerController.cs",
+              "ToolTip": "D:\\3D_Ball\\2310511105011\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAD0AAAABAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:15:10.449Z",
+              "WhenOpened": "2024-09-03T05:11:05.636Z",
               "EditorCaption": ""
             }
           ]
